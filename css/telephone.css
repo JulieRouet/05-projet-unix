@@ -1,0 +1,55 @@
+@media screen {
+
+.commandeterminal {
+      padding: 1% 1%;
+      margin-right: 2px;
+      width: 45%;
+      height: auto;
+      background-color: white;
+      border: 5px;
+      border-color: #a3fdc7;
+      border-style: dotted;
+    }
+
+  h1  {
+  color: #ef7091;
+  text-align: center;
+  font-size: 3em;
+  font-family : 'BodoniXT';
+}
+
+h3  {
+  color: #ef7091;
+  text-align: center;
+  font-size: 1.2em;
+  font-family : 'BodoniXT';
+}
+
+h4  {
+  color: #32d272;;
+  text-align: center;
+  font-size: 1.2em;
+  font-family : 'BodoniXT';
+}
+
+section {
+  padding: 5% 10%;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  background-color: white;
+  border: 1px;
+  }
+  p
+  {font-size: 0.724em;
+  font-family : 'Times';
+  text-align; left;
+  margin-left: 10px;
+}
+
+p definition {
+      color: #ef7091;
+      font-family: Times;
+      font-size: 0.500em;
+    }
+}
