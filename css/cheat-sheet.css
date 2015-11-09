@@ -26,16 +26,57 @@ section {
   margin: auto;
   width: 700;
   height: auto;
-  background-color: white
+  background-color: white;
+  border: 1px;
   }
 
-  commande mac {
-    padding: 5% 10%;
-    margin: left;
-    width: 50%;
+  .commandemac {
+    padding: 1% 1%;
+    margin-left: 2px;
+    width: 45%;
     height: auto;
-    background-color: white
+    background-color: white;
+    display: inline-block;
+    border: 5px;
+    border-color: pink;
+    border-style: dotted;
     }
+
+    .commandeterminal {
+      padding: 1% 1%;
+      margin-right: 2px;
+      width: 45%;
+      height: auto;
+      background-color:white;
+      display: inline-block;
+      float: right;
+      border: 5px;
+      border-color: green;
+      border-style: dotted;
+      }
+    }
+
+
+    .commandeterminal code {
+                background-color: #32d272;
+                color: white;
+                padding: 3px 10px;
+                font-family: menlo, monospace;
+                font-size: 0.500em;
+                margin-right: 5px;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                display: block;
+                text-align: center;
+                word-wrap: break-word;
+              }
+
+        .commandeterminal definition{
+            color: #32d272;
+                  font-family: Times;
+                  font-size: 0.500em;
+                  }
+            }
 
 titre {
   color: #ff7cf4;
