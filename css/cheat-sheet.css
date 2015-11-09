@@ -13,27 +13,63 @@
 /* header */
 
 h1  {
+  color: #ff7cf4;
   text-align: center;
-  font-size: 32px;
+  font-size: 4.375em;
   font-family : 'Daydreamer';
-  text-align : center;
 }
 
 /* header */
 
 section {
-  padding: 5px 20px;
+  padding: 5% 10%;
   margin: auto;
-  width: 800px;
+  width: 700;
   height: auto;
   background-color: white
   }
 
-p{
-     font-size: 22px;
-     font-family : 'Daydreamer';
-     text-align : center;
-     }
+  commande mac {
+    padding: 5% 10%;
+    margin: left;
+    width: 50%;
+    height: auto;
+    background-color: white
+    }
+
+titre {
+  color: #ff7cf4;
+  text-align: center;
+  font-size: 1em;
+  font-family : 'Daydreamer';
+
+}
+  p {
+       font-size: 2.000em;
+       font-family : 'Daydreamer';
+       text-align; left;
+       margin-left: 10px;
+      }
+
+  p definition {
+    color: #ef7091;
+    font-family: Times;
+    font-size: 0.500em;
+  }
+
+  code {
+              background-color: #ef7091;
+              color: white;
+              padding: 3px 10px;
+              font-family: menlo, monospace;
+              font-size: 0.500em;
+              margin-right: 5px;
+              margin-left: 5px;
+              margin-bottom: 10px;
+              display: block;
+              text-align: center;
+              word-wrap: break-word;
+          }
 ul {
   list-style: none;
 }
