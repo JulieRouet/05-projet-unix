@@ -1,8 +1,18 @@
 @media screen {
 
+.commandemac {
+    padding: 1% 1%;
+    margin:auto;
+    width: 45%;
+    height: auto;
+    background-color: white;
+    border: 5px;
+    border-color: pink;
+    border-style: dotted;
+    }
 .commandeterminal {
       padding: 1% 1%;
-      margin-right: 2px;
+      margin:auto;
       width: 45%;
       height: auto;
       background-color: white;
@@ -47,9 +57,45 @@ section {
   margin-left: 10px;
 }
 
-p definition {
+
+    p definition {
       color: #ef7091;
       font-family: Times;
       font-size: 0.500em;
     }
+
+    code {
+                background-color: #ef7091;
+                color: white;
+                padding: 3px 10px;
+                font-family: menlo, monospace;
+                font-size: 0.500em;
+                margin-right: 5px;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                display: block;
+                text-align: center;
+                word-wrap: break-word;
+              }
+
+  .commandeterminal code {
+                background-color: #32d272;
+                color: white;
+                padding: 3px 10px;
+                font-family: menlo, monospace;
+                font-size: 0.500em;
+                margin-right: 5px;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                display: block;
+                text-align: center;
+                word-wrap: break-word;
+              }
+
+        .commandeterminal definition{
+            color: #32d272;
+                  font-family: Times;
+                  font-size: 0.500em;
+                  }
+            }
 }
